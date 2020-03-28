@@ -3,3 +3,4 @@
 !*.java
 !pom.xml
 !.gitignore
+!README.md

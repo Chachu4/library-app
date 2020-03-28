@@ -1,0 +1,1 @@
+package com.atos.library.engines.exceptions;public class InvalidIdException extends Exception {    private static final String MESSAGE_INVALID_ID = "The provided id: %d is invalid\n";    public InvalidIdException(int id) {        super(String.format(MESSAGE_INVALID_ID, id));    }}
