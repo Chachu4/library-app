@@ -1,0 +1,5 @@
+# Default ignored files
+*.*
+!*.java
+!pom.xml
+!.gitignore

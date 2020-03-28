@@ -1,0 +1,1 @@
+package com.atos.library.engines;import com.atos.library.model.Book;import java.util.List;public interface DistributionEngine {    void addBook(List<Book> books, Book book);    void lendBook(List<Book> books, int id, String reader);    void removeBook(List<Book> books, int id);}

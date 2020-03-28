@@ -1,0 +1,1 @@
+package com.atos.library.engines;import com.atos.library.model.Book;import java.util.List;import java.util.Optional;public interface SearchInfoEngine {    void printBookSearchResult(Optional<Book> book);    void printBooksSearchResults(Optional<List<Book>> books);    void printLibraryStatus(List<Book> books);}
